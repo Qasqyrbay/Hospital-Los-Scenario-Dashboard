@@ -2,15 +2,11 @@
 
 ## Overview
 
-The **Hospital LOS Scenario Dashboard** is an interactive R Shiny application that demonstrates how machine learning can support hospital resource planning through scenario analysis. Rather than predicting the length of stay (LOS) for a single patient, the dashboard allows users to evaluate **"what-if" scenarios** by modifying the characteristics of a representative patient cohort.
+The Hospital LOS Scenario Dashboard is an interactive R Shiny application that demonstrates how machine learning can support hospital resource planning through scenario analysis. Rather than predicting the length of stay (LOS) for a single patient, the dashboard allows users to evaluate **"what-if" scenarios** by modifying the characteristics of a representative patient cohort.
 
-The application serves as a proof of concept accompanying the manuscript:
-
-> **Machine Learning-Based Length of Stay Prediction to Support Hospital Resource Allocation: A Nationally Representative Study from Kazakhstan**
 
 The dashboard illustrates how changes in patient case-mix may influence predicted LOS distribution, bed occupancy, and hospital resource requirements.
 
----
 
 ## Features
 
@@ -32,7 +28,7 @@ The dashboard illustrates how changes in patient case-mix may influence predicte
 * Comparison of baseline and user-defined scenarios.
 * Interactive visualizations and downloadable results.
 
----
+
 
 ## Workflow
 
@@ -42,7 +38,7 @@ The dashboard illustrates how changes in patient case-mix may influence predicte
 4. Aggregate predictions into operational metrics.
 5. Display results through interactive tables and visualizations.
 
----
+
 
 ## Repository Structure
 
@@ -67,7 +63,7 @@ Hospital-LOS-Scenario-Dashboard/
 └── figures/
 ```
 
----
+
 
 ## Requirements
 
@@ -90,7 +86,7 @@ Hospital-LOS-Scenario-Dashboard/
 
 Additional packages may be required depending on the machine learning model used.
 
----
+
 
 ## Running the Application
 
