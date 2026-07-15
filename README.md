@@ -46,21 +46,18 @@ The dashboard illustrates how changes in patient case-mix may influence predicte
 Hospital-LOS-Scenario-Dashboard/
 
 ├── app.R
+├── global.R
+├── server.R
+├── ui.R
 ├── README.md
 ├── LICENSE
 ├── data/
-│   ├── cohort.rds
-│   └── variable_levels.rds
+│   └── synthetic_external2023.rds
 ├── models/
-│   └── rf_final.rds
-├── R/
-│   ├── prediction.R
-│   ├── scenario.R
-│   ├── plots.R
-│   └── helpers.R
-├── www/
-│   └── style.css
-└── figures/
+│   └── RF.RData
+└── www/
+   └── style.css
+
 ```
 
 
